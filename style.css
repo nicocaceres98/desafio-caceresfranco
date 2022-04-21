@@ -1,0 +1,98 @@
+* {
+  padding: auto;
+  margin: auto;
+}
+/**/
+/*Agregamos fondo celeste*/
+body {
+  background-color: rgb(41, 136, 230);
+}
+
+/*Modificamos el tamaño del logo acorde a la pagina*/
+.logo {
+  height: 150px;
+}
+
+/* Alineamos la clase box-2 al centro*/
+.box-2 {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.box-3 {
+  background-color: #ffffff;
+}
+
+.box-4 {
+  background-color: #ffffff;
+}
+
+/* Sacamos los puntos de la lista*/
+ul {
+  list-style: none;
+}
+
+/* Alineamos la lista de forma horizontal*/
+li {
+  display: inline-block;
+}
+
+/*Titulo e imagenes*/
+main {
+  text-align: center;
+}
+
+h1 {
+  text-size-adjust: 200px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  color: #000000;
+}
+p {
+  text-size-adjust: 200px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  color: #000000;
+}
+.noticia-1 {
+  height: 450px;
+}
+
+.fixture-1 {
+  height: 450px;
+}
+
+.foter {
+  height: 150px;
+}
+
+/*Agregamos botones y animaciones a la lista*/
+nav ul li a {
+  font-family: "Bebas Neue", cursive;
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: rgb(41, 136, 230);
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border-radius: 30px;
+  border: 2px solid rgb(41, 136, 230);
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 rgb(41, 136, 230);
+}
+
+nav ul li a:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 rgb(41, 136, 230);
+}
+
+nav ul li a:active {
+  transform: scale(0.9);
+}
+/**/
